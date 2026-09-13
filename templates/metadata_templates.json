@@ -1,0 +1,23 @@
+{
+  "title_templates": [
+    "Learn About {topic} - Educational Animation",
+    "{topic} Explained - Animated Guide",
+    "How Does {topic} Work? - Educational Video",
+    "{topic} for Kids - Learn in 5 Minutes",
+    "Understanding {topic} - Cartoon Explanation",
+    "The Complete Guide to {topic}",
+    "{topic} 101 - Everything You Need to Know",
+    "Discovering {topic} - Educational Animation"
+  ],
+  "description_templates": [
+    "Learn about {topic} in this engaging educational animation!",
+    "Explore the fascinating world of {topic} with this cartoon.",
+    "Understand {topic} like never before!",
+    "Join us as we discover the secrets of {topic}!"
+  ],
+  "tag_categories": {
+    "general": ["educational", "cartoon", "learning", "animation", "kids", "education"],
+    "educational": ["explainer", "tutorial", "learn", "educational video", "science", "history"],
+    "audience": ["kids", "children", "students", "family friendly", "animated"]
+  }
+}

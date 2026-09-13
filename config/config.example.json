@@ -1,0 +1,73 @@
+{
+  "youtube": {
+    "api_key": "YOUR_YOUTUBE_API_KEY",
+    "client_id": "YOUR_CLIENT_ID.apps.googleusercontent.com",
+    "client_secret": "YOUR_CLIENT_SECRET",
+    "credentials_file": "config/credentials.json"
+  },
+  "upload_settings": {
+    "max_videos_per_day": 2,
+    "optimal_upload_time": "14:00",
+    "upload_delay_seconds": 300,
+    "category": "Education",
+    "language": "en",
+    "default_privacy": "public",
+    "enable_comments": true,
+    "enable_ratings": true
+  },
+  "metadata": {
+    "channel_name": "Your Channel Name",
+    "channel_description": "Educational cartoon videos for kids",
+    "default_tags": [
+      "educational",
+      "cartoon",
+      "learning",
+      "kids",
+      "animation"
+    ],
+    "content_type": "Education",
+    "target_audience": "Kids (8-14)"
+  },
+  "thumbnail": {
+    "auto_generate": true,
+    "width": 1280,
+    "height": 720,
+    "font_size": 60,
+    "background_color": "#FF0000",
+    "text_color": "#FFFFFF",
+    "template": "default"
+  },
+  "scheduler": {
+    "enabled": true,
+    "schedule_file": "data/schedule.csv",
+    "timezone": "UTC",
+    "auto_retry_on_failure": true,
+    "max_retries": 3
+  },
+  "analytics": {
+    "enabled": true,
+    "database": "data/analytics.db",
+    "tracking_interval_hours": 24,
+    "retention_days": 90
+  },
+  "ai_metadata": {
+    "enabled": true,
+    "provider": "openai",
+    "api_key": "YOUR_OPENAI_API_KEY",
+    "model": "gpt-4",
+    "max_title_length": 100,
+    "max_description_length": 5000
+  },
+  "logging": {
+    "level": "INFO",
+    "log_file": "logs/youtube_automation.log",
+    "max_log_size_mb": 10,
+    "backup_count": 5
+  },
+  "notifications": {
+    "enabled": true,
+    "email": "your-email@example.com",
+    "notify_on_upload": true,
+    "notify_on_error": true
+  }
+}
